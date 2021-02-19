@@ -8,7 +8,7 @@ html {
     padding: 0;
     border: 0;
 }
-body {
+footer {
     padding: 1.7vmin;
     font-size: 16px;
     font-family: sans, sans-serif;
@@ -57,18 +57,34 @@ nav.scroll {
     background-color: #A1572F;
     color: #eef;
 }
-h1 {
-    background-color: green;
-}
+
 
 div {
     background-color: ghostwhite;
 }
 
 p {
-    background-color: mediumaquamarine;
+    background-color: lightskyblue;
 }
-.container {
-    padding-top: 70px;
-    padding-bottom: 70px;
+body {
+    height: 200vh;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.header {
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    background: rgba(34,34,34,0.25);
+    padding: 18px;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.active {
+    background-color: rgba(34,34,34,0.8);
 }
