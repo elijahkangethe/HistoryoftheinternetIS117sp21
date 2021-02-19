@@ -8,16 +8,28 @@ html {
     padding: 0;
     border: 0;
 }
-footer {
-    padding: 1.7vmin;
-    font-size: 16px;
-    font-family: sans, sans-serif;
-    color: #333;
+body
+{
+    width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    color: inherit;
-    font-style: italic;
+.footer {
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    background: rgba(34,34,34,0.25);
+    padding: 18px;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
 }
 
 nav {
@@ -38,39 +50,26 @@ nav span {
     letter-spacing: .085em;
 }
 
-nav button {
-    position: absolute;
-    top: 0;
-    transform: translateY(50%);
-    right: 0;
-    min-height: 1.5em;
-    min-width: 80px;
-    background-color: #eee;
-    color: #222;
-    border: 0;
-    border-radius: 2px;
-    margin-right: 18px;
-    text-transform: uppercase;
-}
 
 nav.scroll {
     background-color: #A1572F;
     color: #eef;
 }
 
-
 div {
-    background-color: ghostwhite;
-}
-
-p {
     background-color: lightskyblue;
 }
-body {
-    height: 200vh;
-    margin: 0 0;
-    padding: 0 0;
+P {
+    font-family: "trebuchet MS", serif;
+    color: #222222;
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 28px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:gainsboro;
 }
+
 
 .header {
     position: fixed;
