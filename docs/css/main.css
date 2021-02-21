@@ -87,3 +87,6 @@ P {
 .active {
     background-color: rgba(34,34,34,0.8);
 }
+div {
+    column-rule: 4px double #ff00ff;
+}
